@@ -18,6 +18,10 @@
     margin-bottom: 20px;
 }
 
+.mb10 {
+    margin-bottom: 10px;
+}
+
 .mr {
     margin-right: 2%;
 }
@@ -80,12 +84,13 @@
     border-bottom-left-radius: 5px;
     border-bottom-right-radius: 5px;
     min-height: 150px;
+    padding: 20px;
 }
 
 .boxcontent2 {
     border-left: 1px #CCC solid;
     border-right: 1px #CCC solid;
-    min-height: 150px;
+    background-color: #eee;
 }
 
 .boxfooter {
@@ -93,17 +98,22 @@
     background-color: #eee;
     border-bottom-left-radius: 5px;
     border-bottom-right-radius: 5px;
-    border: 1px #CCC solid;
+    border-left: 1px #CCC solid;
+    border-right: 1px #CCC solid;
+    border-bottom: 1px #CCC solid;
 }
-.banner{
+
+.banner {
     min-height: 300px;
     width: 100%;
     text-align: center;
 }
-.banner img{
+
+.banner img {
     height: 300px;
 }
-.boxsp{
+
+.boxsp {
     float: left;
     width: 32%;
     min-height: 300px;
@@ -111,10 +121,101 @@
     border-radius: 5px;
     margin-bottom: 20px;
 }
-.boxsp .img{
+
+.boxsp .img {
     min-height: 230px;
     text-align: center;
 }
-.img img{
+
+.img img {
     height: 220px;
+}
+
+.menu ul {
+    padding: 0px 15px;
+}
+
+.menu ul li {
+    list-style-type: none;
+    display: inline;
+    padding: 0px 15px;
+}
+
+.menu ul li a {
+    color: #CCC;
+    text-decoration: none;
+    transition: 0.5s;
+}
+
+.menu ul li a:hover {
+    color: white;
+    font-size: 0.8vw;
+}
+
+/* box tai khoan */
+.formtaikhoan {
+    line-height: 150%;
+}
+
+.formtaikhoan input[type="text"],
+.formtaikhoan input[type="password"] {
+    width: 100%;
+    border: 1px #ccc solid;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+.formtaikhoan input[type="checkbox"] {
+    border-radius: 5px;
+}
+
+.formtaikhoan input[type="submit"] {
+    border-radius: 5px;
+    padding: 5px 10px;
+    background-color: white;
+    border: 1px #ccc solid;
+}
+
+.formtaikhoan input[type="submit"]:hover {
+    background-color: #ccc;
+}
+
+.formtaikhoan li a {
+    color: teal;
+    text-decoration: none;
+}
+
+.formtaikhoan li a:hover {
+    color: #060;
+    text-decoration: underline;
+}
+
+/* menu dọc */
+.menudoc ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+.menudoc ul li {
+    padding: 10px 20px;
+    background-color: #FFF;
+    border-bottom: 1px #ccc solid;
+}
+
+.menudoc ul li a {
+    color: #666;
+    text-decoration: none;
+}
+
+.menudoc ul li:hover {
+    background-color: #CCC;
+}
+
+.searbox input[type="text"] {
+    width: 100%;
+    padding: 5px 10px;
+    background-color: #FFF;
+    border: 1px #ccc solid;
+    border-radius: 5px;
 }
